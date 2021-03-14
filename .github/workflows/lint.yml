@@ -1,0 +1,94 @@
+name: lint
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - 'v*'
+      - 'v*.*.*'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, '[skip ci]') == false
+    steps:
+      # install
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Get Yarn Cache Directory Path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Install npm
+        run: |
+          yarn --frozen-lockfile
+      - name: Check Type
+        run: |
+          npm run ci:check:type
+      - name: Check Code Format
+        run: |
+          npm run ci:check:format
+      # lint-mince
+      - name: Lint Config
+        run: |
+          echo 'Lint Config'
+          # npm run ci:check:config
+      - name: Lint Commit
+        run: |
+          echo 'Lint Commit'
+          # npm run ci:check:commit
+      - name: Lint Markdown
+        run: |
+          echo 'Lint Markdown'
+          # npm run ci:check:md
+  test:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, '[skip ci]') == false
+    steps:
+      # install
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Get Yarn Cache Directory Path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Install npm
+        run: |
+          yarn --frozen-lockfile
+      - name: Run Unit and Snapshot Test with Coverage
+        run: |
+          # TODO: Check Code Coverage
+          echo 'Run Unit and Snapshot Test with Coverage'
+          # npm run ci:test:unit
+      - name: Run Styleguide's Accessibility and Visual Regression Test
+        run: |
+          echo "Run Styleguide's Accessibility and Visual Regression Test"
+          # npm run ci:test:styleguide
+      - name: Run E2E and Snapshot Test
+        run: |
+          echo 'Run E2E and Snapshot Test'
+          # npm run ci:test:e2e
+      - name: Run SEO Test
+        run: |
+          echo 'Run SEO Test'
+          # npm run ci:test:seo
