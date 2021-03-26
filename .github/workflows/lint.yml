@@ -90,6 +90,8 @@ jobs:
         with:
           browser: chrome
           command: |
+            echo $GATSBY_SITE_TITLE
+            echo $SITE_TITLE
             npm run ci:test:e2e
       - name: Run SEO Test
         run: |
