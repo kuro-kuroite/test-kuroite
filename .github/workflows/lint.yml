@@ -79,16 +79,19 @@ jobs:
         run: |
           # TODO: Check Code Coverage
           echo 'Run Unit and Snapshot Test with Coverage'
-          # npm run ci:test:unit
+          npm run ci:test:unit
       - name: Run Styleguide's Accessibility and Visual Regression Test
         run: |
           echo "Run Styleguide's Accessibility and Visual Regression Test"
-          # npm run ci:test:styleguide
+          npm run ci:test:styleguide
       - name: Run E2E and Snapshot Test
-        run: |
-          echo 'Run E2E and Snapshot Test'
-          # npm run ci:test:e2e
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          command: |
+            echo 'Run E2E and Snapshot Test'
+            npm run ci:test:e2e
       - name: Run SEO Test
         run: |
           echo 'Run SEO Test'
-          # npm run ci:test:seo
+          npm run ci:test:seo

@@ -34,4 +34,4 @@ jobs:
           yarn --frozen-lockfile
       - name: Test npm
         run: |
-          # npm run test:npm
+          npm run test:npm

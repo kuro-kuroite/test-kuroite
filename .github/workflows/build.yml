@@ -52,14 +52,14 @@ jobs:
       - name: Deploy to Production
         run: |
           echo 'Deploy to Production'
-          # npm run deploy
+          npm run deploy
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       - name: Create Coverage
         run: |
           echo 'Create Coverage'
-          # npm run ci:test:unit
+          npm run ci:test:unit
       - name: Upload Test Coverage as Artifact
         # uses: actions/upload-artifact@v2
         # with:
