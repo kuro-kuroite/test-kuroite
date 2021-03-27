@@ -98,13 +98,15 @@ jobs:
           cat .env.development
       - name: Run Unit and Snapshot Test with Coverage
         run: |
-          # TODO: Check Code Coverage
           echo 'Run Unit and Snapshot Test with Coverage'
-          npm run ci:test:unit
+          # FIXME: Check Code Coverage
+          # npm run ci:test:unit
+          npx jest --ci --coverage
       - name: Run Styleguide's Accessibility and Visual Regression Test
         run: |
           echo "Run Styleguide's Accessibility and Visual Regression Test"
-          # FIXME: Docker 環境と CI 環境でレンダリング内容に差が出るため
+          # FIXME: Check regression. (Docker 環境と CI 環境でレンダリング内容に差が出るため)
+          # FIXME: Check A11y
           # npm run ci:test:styleguide
       - name: Run E2E and Snapshot Test
         uses: cypress-io/github-action@v2
@@ -113,9 +115,12 @@ jobs:
           install: false
           command: |
             echo "Run E2E and Snapshot Test"
-            # FIXME: Docker 環境と CI 環境でレンダリング内容に差が出るため
+            # FIXME: Check snapshot. (Docker 環境と CI 環境でレンダリング内容に差が出るため)
+            # FIXME: Check A11y
             # npm run ci:test:e2e
       - name: Run SEO Test
         run: |
           echo 'Run SEO Test'
-          npm run ci:test:seo --slug=blog/sample/
+          # FIXME: 全ページの url を動的に指定(from sitemap.xml or recursive)
+          # FIXME: Check lighthouse
+          # npm run ci:test:seo
