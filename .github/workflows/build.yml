@@ -8,8 +8,6 @@ on:
     types:
       - completed
 
-# TODO: Upload Test Coverage as Artifact、コメントアウトを解除。
-# TODO: semantic-release、Netlify、Codecov、トークンを追加。
 jobs:
   deploy:
     runs-on: ubuntu-latest
