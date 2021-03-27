@@ -111,6 +111,7 @@ jobs:
         with:
           browser: chrome
           # FIXME: use npm run ci:test:e2e over splitting start and command
+          install: false
           start: npm run develop
           wait-on: http://localhost:8000
           wait-on-timeout: 120

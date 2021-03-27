@@ -12,6 +12,8 @@ config({
   path: `.env.${activeEnv}`,
 });
 
+console.log('siteUrl:', process.env.SITE_URL);
+
 const title = process.env.SITE_TITLE ?? '';
 const siteUrl = process.env.SITE_URL ?? '';
 const gatsbyConfig: GatsbyConfig = {
