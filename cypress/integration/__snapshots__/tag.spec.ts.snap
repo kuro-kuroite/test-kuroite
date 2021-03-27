@@ -1,0 +1,739 @@
+exports[`/tag/About/ > ロードした時に，dark modeとlight modeのアクセシビリティを確認する #0`] = `
+<body data-theme="default">
+  <div id="___gatsby">
+    <div tabindex="-1" id="gatsby-focus-wrapper" style="outline: none;">
+      <div>
+        <h1>Gatsby.js development 404 page</h1>
+        <p>There's not a page yet at <code>/tag/About/</code></p>
+        <p><button>Preview custom 404 page</button></p>
+        <p>
+          Create a React.js component in your site directory at
+          <code>src/pages/tag/About.js</code> and this page will automatically
+          refresh to show the new page component you created.
+        </p>
+        <div>
+          <p>
+            If you were trying to reach another page, perhaps you can find it
+            below.
+          </p>
+          <h2>Pages (19)</h2>
+          <form>
+            <label
+              >Search:<input
+                type="text"
+                id="search"
+                placeholder="Search pages..."
+                value=""/></label
+            ><input type="submit" value="Submit" />
+          </form>
+          <ul>
+            <li>
+              <a href="/blog/operating-graphql-server-with-gqlgen/"
+                >/blog/operating-graphql-server-with-gqlgen/</a
+              >
+            </li>
+            <li><a href="/blog/my-new-blog/">/blog/my-new-blog/</a></li>
+            <li><a href="/blog/new-beginnings/">/blog/new-beginnings/</a></li>
+            <li><a href="/blog/my-second-post/">/blog/my-second-post/</a></li>
+            <li><a href="/blog/sample/">/blog/sample/</a></li>
+            <li><a href="/blog/hello-world/">/blog/hello-world/</a></li>
+            <li><a href="/about/">/about/</a></li>
+            <li><a href="/privacy-policy/">/privacy-policy/</a></li>
+            <li><a href="/tags/Gatsby">/tags/Gatsby</a></li>
+            <li><a href="/tags/HelloWorld">/tags/HelloWorld</a></li>
+            <li><a href="/tags/Markdown">/tags/Markdown</a></li>
+            <li><a href="/tags/React">/tags/React</a></li>
+            <li><a href="/tags/Tomato">/tags/Tomato</a></li>
+            <li><a href="/tags/TypeScript">/tags/TypeScript</a></li>
+            <li><a href="/tags/About">/tags/About</a></li>
+            <li><a href="/tags/活動記録">/tags/活動記録</a></li>
+            <li><a href="/404/">/404/</a></li>
+            <li><a href="/">/</a></li>
+            <li><a href="/404.html">/404.html</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      id="gatsby-announcer"
+      aria-live="assertive"
+      aria-atomic="true"
+      style="position: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"
+    ></div>
+  </div>
+  <script src="/polyfill.js" nomodule=""></script>
+  <script src="/commons.js"></script>
+</body>
+`;
+
+exports[`/tag/About/ > with <Example /> > testIdがexampleであるタグが1つある #0`] = `
+<body data-theme="default">
+  <div id="___gatsby">
+    <div tabindex="-1" id="gatsby-focus-wrapper" style="outline: none;">
+      <div>
+        <h1>Gatsby.js development 404 page</h1>
+        <p>There's not a page yet at <code>/tag/About/</code></p>
+        <p><button>Preview custom 404 page</button></p>
+        <p>
+          Create a React.js component in your site directory at
+          <code>src/pages/tag/About.js</code> and this page will automatically
+          refresh to show the new page component you created.
+        </p>
+        <div>
+          <p>
+            If you were trying to reach another page, perhaps you can find it
+            below.
+          </p>
+          <h2>Pages (19)</h2>
+          <form>
+            <label
+              >Search:<input
+                type="text"
+                id="search"
+                placeholder="Search pages..."
+                value=""/></label
+            ><input type="submit" value="Submit" />
+          </form>
+          <ul>
+            <li>
+              <a href="/blog/operating-graphql-server-with-gqlgen/"
+                >/blog/operating-graphql-server-with-gqlgen/</a
+              >
+            </li>
+            <li><a href="/blog/my-new-blog/">/blog/my-new-blog/</a></li>
+            <li><a href="/blog/new-beginnings/">/blog/new-beginnings/</a></li>
+            <li><a href="/blog/my-second-post/">/blog/my-second-post/</a></li>
+            <li><a href="/blog/sample/">/blog/sample/</a></li>
+            <li><a href="/blog/hello-world/">/blog/hello-world/</a></li>
+            <li><a href="/about/">/about/</a></li>
+            <li><a href="/privacy-policy/">/privacy-policy/</a></li>
+            <li><a href="/tags/Gatsby">/tags/Gatsby</a></li>
+            <li><a href="/tags/HelloWorld">/tags/HelloWorld</a></li>
+            <li><a href="/tags/Markdown">/tags/Markdown</a></li>
+            <li><a href="/tags/React">/tags/React</a></li>
+            <li><a href="/tags/Tomato">/tags/Tomato</a></li>
+            <li><a href="/tags/TypeScript">/tags/TypeScript</a></li>
+            <li><a href="/tags/About">/tags/About</a></li>
+            <li><a href="/tags/活動記録">/tags/活動記録</a></li>
+            <li><a href="/404/">/404/</a></li>
+            <li><a href="/">/</a></li>
+            <li><a href="/404.html">/404.html</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      id="gatsby-announcer"
+      aria-live="assertive"
+      aria-atomic="true"
+      style="position: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"
+    ></div>
+  </div>
+  <script src="/polyfill.js" nomodule=""></script>
+  <script src="/commons.js"></script>
+</body>
+`;
+
+exports[`/tags/About/ > ロードした時に，dark modeとlight modeのアクセシビリティを確認する #0`] = `
+<body data-theme="dark">
+  <div id="___gatsby">
+    <div tabindex="-1" id="gatsby-focus-wrapper" style="outline: none;">
+      <div
+        class="Layout-module--Container--2G9pG style-module--container--3PyyC style-module--fluidFixedContainer--2yxvz style-module--selection--GwGAU"
+      >
+        <header
+          class="Header-module--Header--2RVH9 style-module--header--1Xeo8"
+        >
+          <nav
+            class="HeaderNav-module--Nav--2TeHa style-module--nav--HHN5D style-module--nav--2fXC0 style-module--nav--2RIKo style-module--navBase--HCXnn style-module--navResetBase--3SAPV"
+            aria-label="ヘッダナビゲーション"
+          >
+            <a
+              class="LogoLink-module--Banner--2dr1Y style-module--banner--1VzaQ style-module--banner--129Ru style-module--alignTextCenterCrossAxis--rB1De"
+              area-role="banner"
+              aria-label="Starter"
+              data-brand="Starter"
+              href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                role="img"
+                aria-label="Kuroite"
+                viewBox="0 0 52 52"
+                class="LogoLink-module--Icon--1vBHx style-module--icon--36FQM"
+              >
+                <g transform="translate(0,52) scale(0.1,-0.1)">
+                  <path
+                    d="M145 499c-95 -47 -145 -129 -145 -237l0 -67 98 -98 97 -97 66 0
+c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
+-130 135 -60 28 -173 29 -230 0z m197 -95c78 -40 113 -162 69 -241 -56 -99
+-185 -123 -268 -50 -64 56 -81 142 -43 217 44 86 152 119 242 74z"
+                    fill="#e44d26"
+                  ></path>
+                  <circle cx="452%" cy="435%" r="95" fill="#dd3a0a"></circle>
+                </g></svg
+            ></a>
+            <div
+              class="HeaderMenu-module--Menu--2tYBj style-module--menu--2U_lf style-module--menu--lPjGj style-module--navGapX--29Fw0"
+            >
+              <ul
+                class="HeaderMenuPageList-module--List--2xFv1 style-module--navList--20xmI style-module--navList--OiCxZ style-module--navGapX--29Fw0"
+              >
+                <li>
+                  <a
+                    class="HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--2pVl8 style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                    href="/"
+                    >blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--2pVl8 style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                    href="/about/"
+                    >about</a
+                  >
+                </li>
+              </ul>
+              <ul
+                class="HeaderMenuIconList-module--List--2X9Su style-module--navList--20xmI style-module--navList--OiCxZ style-module--navGapX--29Fw0"
+              >
+                <li
+                  class="HeaderMenuIconList-module--InvisibleSm--3h9As style-module--invisibleSm--1Jv-n"
+                >
+                  <a
+                    href="/rss.xml"
+                    class="RssFeedLink-module--Link--2uMoE style-module--navIconLink--1yMim style-module--icon--36FQM style-module--navLink--2pVl8 style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                    aria-label="RSSフィード"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="6.18" cy="17.82" r="2.18"></circle>
+                      <path
+                        d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kylemathews/"
+                    target="_blank"
+                    rel="nofollow noopener noreferrer"
+                    class="GitHubLink-module--Link--1XkgK style-module--navIconLink--1yMim style-module--icon--36FQM style-module--navLink--2pVl8 style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                    aria-label="GitHubアカウントページ"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.976 0A7.977 7.977 0 0 0 0 7.976c0 3.522 2.3 6.507 5.431 7.584.392.049.538-.196.538-.392v-1.37c-2.201.49-2.69-1.076-2.69-1.076-.343-.93-.881-1.175-.881-1.175-.734-.489.048-.489.048-.489.783.049 1.224.832 1.224.832.734 1.223 1.859.88 2.3.685.048-.538.293-.88.489-1.076-1.762-.196-3.621-.881-3.621-3.964 0-.88.293-1.566.832-2.153-.05-.147-.343-.978.098-2.055 0 0 .685-.196 2.201.832.636-.196 1.322-.245 2.007-.245s1.37.098 2.006.245c1.517-1.027 2.202-.832 2.202-.832.44 1.077.146 1.908.097 2.104a3.16 3.16 0 0 1 .832 2.153c0 3.083-1.86 3.719-3.62 3.915.293.244.538.733.538 1.467v2.202c0 .196.146.44.538.392A7.984 7.984 0 0 0 16 7.976C15.951 3.572 12.38 0 7.976 0z"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li>
+                  <span
+                    class="DarkMode-module--Link--2GBnz style-module--navIconLink--1yMim style-module--icon--36FQM style-module--navLink--2pVl8 style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                    ><label
+                      class="DarkMode-module--DarkMode--20ujG style-module--toggleIcon--2WGvE style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                      ><input
+                        type="checkbox"
+                        class="DarkMode-module--Checkbox--1iH8T style-module--checkbox--JlgzU"
+                        aria-label="ライトモードアイコン"
+                        data-testid="darkModeCheckbox"/><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        height="1em"
+                        width="1em"
+                        class="DarkMode-module--Icon--VVlyR style-module--icon--32Amx style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                          clip-rule="evenodd"
+                        ></path></svg></label
+                  ></span>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <main>
+          <h1 class="Tag-module--Title--2JBoS style-module--title--1djjC">
+            タグ: About
+          </h1>
+          <ul
+            class="BlogList-module--List--1nug_ style-module--list--586AU style-module--navList--OiCxZ"
+          >
+            <li class="BlogList-module--Item--3gwP4 style-module--item--2i7bS">
+              <article>
+                <a
+                  class="BlogItem-module--BlogLink--29a0P style-module--link--3A6Oz"
+                  aria-label="/about/ へのリンク"
+                  href="/about/"
+                  ><h1
+                    class="BlogItem-module--Title--1Fzz- style-module--title--1djjC"
+                  >
+                    About
+                  </h1>
+                  <p
+                    class="BlogItem-module--Description--3D5Yh style-module--description--rGI9C"
+                  >
+                    モダンなWebフロントエンドの技術を中心に発信する技術ブログ
+                  </p></a
+                ><small
+                  class="BlogInfo-module--BlogInfo--1qWaB style-module--info--27_J5"
+                  ><span
+                    class="UpdatedAt-module--UpdatedAt--gDdEt style-module--text--2dYga"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      class="UpdatedAt-module--WithIcon--1lN-I style-module--icon--1s7rL"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79 2.73 2.71 7.15 2.71 9.88 0C18.32 15.65 19 14.08 19 12.1h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58 3.51-3.47 9.14-3.47 12.65 0L21 3v7.12zM12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8h1.5z"
+                      ></path></svg
+                    >05/01/2015</span
+                  ><span
+                    class="CreatedAt-module--CreatedAt--mkugj style-module--createdAt--2ZN8K style-module--text--2dYga"
+                    >(<svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      class="CreatedAt-module--WithIcon--2l4OR style-module--icon--1s7rL"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                          d="M12.9 6.858l4.242 4.243L7.242 21H3v-4.243l9.9-9.9zm1.414-1.414l2.121-2.122a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414l-2.122 2.121-4.242-4.242z"
+                        ></path>
+                      </g></svg
+                    >05/01/2015)</span
+                  >
+                  <div
+                    class="TagIconList-module--TagIconList--1Rly_ style-module--list--2WXKP style-module--list--2rlgH"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      class="TagIconList-module--WithIcon--JDhpK style-module--icon--1NrNW style-module--icon--1s7rL"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
+                      ></path>
+                    </svg>
+                    <ul
+                      class="TagIconList-module--IconList--2nZPl style-module--linkList--3xVdB style-module--list--2rlgH"
+                    >
+                      <li>
+                        <a
+                          aria-current="page"
+                          class="TagIcon-module--TagIcon--1XXn1 style-module--iconLink--3K-F4"
+                          href="/tags/About/"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="TagIcon-module--TagIcon--1XXn1 style-module--iconLink--3K-F4"
+                          href="/tags/活動記録/"
+                          >活動記録</a
+                        >
+                      </li>
+                    </ul>
+                  </div></small
+                >
+              </article>
+            </li>
+          </ul>
+        </main>
+        <footer
+          class="Footer-module--Footer--IKo1c style-module--footer--9c4_H style-module--footer--1SUYs"
+          id="footer"
+        >
+          <div
+            class="Footer-module--Container--2Nrgw style-module--container--3AqXn"
+          >
+            <nav
+              class="FooterNav-module--Nav--2mlZh style-module--nav--czMli style-module--nav--2YeU6 style-module--nav--2RIKo style-module--navBase--HCXnn style-module--navResetBase--3SAPV style-module--navGapX--29Fw0"
+              aria-label="フッタナビゲーション"
+            >
+              <ul
+                class="FooterNav-module--List--1flOl style-module--list--1A5g7 style-module--navList--v4rzB style-module--navList--OiCxZ"
+              >
+                <li>
+                  <a
+                    class="FooterNav-module--Link--19XVo style-module--link--2gjWR style-module--navLink--GVTHv style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De"
+                    href="/privacy-policy/"
+                    >プライバシーポリシー</a
+                  >
+                </li>
+              </ul>
+              <ul
+                class="FooterNav-module--List--1flOl style-module--list--1A5g7 style-module--navList--v4rzB style-module--navList--OiCxZ"
+              >
+                <li>
+                  <span
+                    class="FooterNav-module--Link--19XVo style-module--link--2gjWR style-module--navLink--GVTHv style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4 style-module--alignTextCenterCrossAxis--rB1De"
+                    ><label
+                      class="I18nMode-module--I18nMode--20LXx style-module--toggleIcon--2WGvE style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
+                      ><input
+                        type="checkbox"
+                        class="I18nMode-module--Checkbox--3wVcx style-module--checkbox--JlgzU"
+                        aria-label="英語アイコン"
+                        data-testid="i18nModeCheckbox"
+                      /><span
+                        class="I18nMode-module--Icon--NAvhh style-module--icon--32Amx style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--common--1bMo4 style-module--buttonResetBase--1tusi style-module--common--1bMo4"
+                        >🇺🇸</span
+                      ></label
+                    ></span
+                  >
+                </li>
+              </ul>
+            </nav>
+            <small
+              class="FooterNotice-module--Notice--2YVjT style-module--notice--37NzE style-module--notice--2F2RY style-module--alignTextCenterMainAxis--2L_MI"
+              >©2020<a
+                href="https://github.com/kylemathews"
+                class="FooterNotice-module--Account--26YeD style-module--account--2o02N"
+                >@kylemathews</a
+              ></small
+            >
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      id="gatsby-announcer"
+      aria-live="assertive"
+      aria-atomic="true"
+      style="position: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"
+    ></div>
+  </div>
+  <script src="/polyfill.js" nomodule=""></script>
+  <script src="/commons.js"></script>
+</body>
+`;
+
+exports[`/tags/About/ > with <Example /> > testIdがexampleであるタグが1つある #0`] = `
+<body data-theme="dark">
+  <div id="___gatsby">
+    <div tabindex="-1" id="gatsby-focus-wrapper" style="outline: none;">
+      <div
+        class="Layout-module--Container--2G9pG style-module--container--1PBGr style-module--fluidFixedContainer--1Wmse style-module--selection--3XduM"
+      >
+        <header
+          class="Header-module--Header--2RVH9 style-module--header--2OzKF"
+        >
+          <nav
+            class="HeaderNav-module--Nav--2TeHa style-module--nav--260Vg style-module--nav--13I-3 style-module--navBase--1FdnF style-module--navResetBase--2mpNR"
+            aria-label="ヘッダナビゲーション"
+          >
+            <a
+              class="LogoLink-module--Banner--2dr1Y style-module--logo--26qbp style-module--alignTextCenterCrossAxis--1lc6e"
+              area-role="banner"
+              aria-label="Starter"
+              data-brand="Starter"
+              href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                role="img"
+                viewBox="0 0 52 52"
+                class="LogoLink-module--Logo--y7vIo"
+              >
+                <g transform="translate(0,52) scale(0.1,-0.1)">
+                  <path
+                    d="M145 499c-95 -47 -145 -129 -145 -237l0 -67 98 -98 97 -97 66 0
+c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
+-130 135 -60 28 -173 29 -230 0z m197 -95c78 -40 113 -162 69 -241 -56 -99
+-185 -123 -268 -50 -64 56 -81 142 -43 217 44 86 152 119 242 74z"
+                    fill="#e44d26"
+                  ></path>
+                  <circle cx="452%" cy="435%" r="95" fill="#dd3a0a"></circle>
+                </g></svg
+            ></a>
+            <div
+              class="HeaderMenu-module--Menu--2tYBj style-module--menu--2vbel style-module--navGapX--23OQb"
+            >
+              <ul
+                class="HeaderMenuPageList-module--List--2xFv1 style-module--navList--3wZTm style-module--navList--2eSCY style-module--navGapX--23OQb"
+              >
+                <li>
+                  <a
+                    class="HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--3U_uM style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e"
+                    href="/"
+                    >blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--3U_uM style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e"
+                    href="/about/"
+                    >about</a
+                  >
+                </li>
+              </ul>
+              <ul
+                class="HeaderMenuIconList-module--List--2X9Su HeaderMenuPageList-module--List--2xFv1 style-module--navList--3wZTm style-module--navList--2eSCY style-module--navGapX--23OQb"
+              >
+                <li
+                  class="HeaderMenuIconList-module--InvisibleSm--3h9As HeaderMenu-module--InvisibleSm--3FCV5"
+                >
+                  <a
+                    class="RssFeedLink-module--Link--2uMoE GitHubLink-module--Link--1XkgK HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--3U_uM style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e style-module--alignTextCenter--u8vj5 style-module--alignTextCenterMainAxis--aVJny style-module--alignTextCenterCrossAxis--1lc6e"
+                    aria-label="RSSフィード"
+                    href="/rss.xml"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="6.18" cy="17.82" r="2.18"></circle>
+                      <path
+                        d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/kylemathews"
+                    target="_blank"
+                    rel="nofollow noopener noreferrer"
+                    class="GitHubLink-module--Link--1XkgK HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--3U_uM style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e style-module--alignTextCenter--u8vj5 style-module--alignTextCenterMainAxis--aVJny style-module--alignTextCenterCrossAxis--1lc6e"
+                    aria-label="GitHubアカウントページ"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.976 0A7.977 7.977 0 0 0 0 7.976c0 3.522 2.3 6.507 5.431 7.584.392.049.538-.196.538-.392v-1.37c-2.201.49-2.69-1.076-2.69-1.076-.343-.93-.881-1.175-.881-1.175-.734-.489.048-.489.048-.489.783.049 1.224.832 1.224.832.734 1.223 1.859.88 2.3.685.048-.538.293-.88.489-1.076-1.762-.196-3.621-.881-3.621-3.964 0-.88.293-1.566.832-2.153-.05-.147-.343-.978.098-2.055 0 0 .685-.196 2.201.832.636-.196 1.322-.245 2.007-.245s1.37.098 2.006.245c1.517-1.027 2.202-.832 2.202-.832.44 1.077.146 1.908.097 2.104a3.16 3.16 0 0 1 .832 2.153c0 3.083-1.86 3.719-3.62 3.915.293.244.538.733.538 1.467v2.202c0 .196.146.44.538.392A7.984 7.984 0 0 0 16 7.976C15.951 3.572 12.38 0 7.976 0z"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li>
+                  <span
+                    class="DarkMode-module--Link--2GBnz GitHubLink-module--Link--1XkgK HeaderMenuPageItem-module--Link--3ZTg_ style-module--navLink--3U_uM style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e style-module--alignTextCenter--u8vj5 style-module--alignTextCenterMainAxis--aVJny style-module--alignTextCenterCrossAxis--1lc6e"
+                    ><label
+                      class="DarkMode-module--DarkMode--20ujG style-module--alignTextCenter--u8vj5 style-module--alignTextCenterMainAxis--aVJny style-module--alignTextCenterCrossAxis--1lc6e"
+                      ><input
+                        type="checkbox"
+                        class="DarkMode-module--Checkbox--1iH8T"
+                        aria-label="ライトモードアイコン"
+                        data-testid="darkModeCheckbox"/><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        height="1em"
+                        width="1em"
+                        class="DarkMode-module--Icon--VVlyR style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                          clip-rule="evenodd"
+                        ></path></svg></label
+                  ></span>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <main class="Layout-module--Main--3cSBe style-module--main--1_gfj">
+          <h1 class="Tag-module--Title--2JBoS BlogItem-module--Title--1Fzz-">
+            タグ: About
+          </h1>
+          <ul class="BlogList-module--List--1nug_">
+            <li class="BlogList-module--Item--3gwP4">
+              <article>
+                <a
+                  class="BlogItem-module--BlogLink--29a0P"
+                  aria-label="/about/ へのリンク"
+                  href="/about/"
+                  ><h1 class="BlogItem-module--Title--1Fzz-">About</h1>
+                  <p class="BlogItem-module--Description--3D5Yh">
+                    モダンなWebフロントエンドの技術を中心に発信する技術ブログ
+                  </p></a
+                ><small class="BlogInfo-module--BlogInfo--1qWaB"
+                  ><span class="UpdatedAt-module--UpdatedAt--gDdEt"
+                    ><svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      class="UpdatedAt-module--WithIcon--1lN-I"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1-2.73 2.71-2.73 7.08 0 9.79 2.73 2.71 7.15 2.71 9.88 0C18.32 15.65 19 14.08 19 12.1h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58 3.51-3.47 9.14-3.47 12.65 0L21 3v7.12zM12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8h1.5z"
+                      ></path></svg
+                    >05/01/2015</span
+                  ><span
+                    class="CreatedAt-module--CreatedAt--mkugj UpdatedAt-module--UpdatedAt--gDdEt"
+                    >(<svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      class="CreatedAt-module--WithIcon--2l4OR UpdatedAt-module--WithIcon--1lN-I"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                          d="M12.9 6.858l4.242 4.243L7.242 21H3v-4.243l9.9-9.9zm1.414-1.414l2.121-2.122a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414l-2.122 2.121-4.242-4.242z"
+                        ></path>
+                      </g></svg
+                    >05/01/2015)</span
+                  >
+                  <div class="TagIconList-module--TagIconList--1Rly_">
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      class="TagIconList-module--WithIcon--JDhpK UpdatedAt-module--WithIcon--1lN-I"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"
+                      ></path>
+                    </svg>
+                    <ul class="TagIconList-module--TagIconList--1Rly_">
+                      <li>
+                        <div class="TagIconList-module--TagIcon--1R1a3">
+                          <a
+                            aria-current="page"
+                            class="TagIcon-module--TagIcon--1XXn1"
+                            href="/tags/About/"
+                            >About</a
+                          >
+                        </div>
+                      </li>
+                      <li>
+                        <div class="TagIconList-module--TagIcon--1R1a3">
+                          <a
+                            class="TagIcon-module--TagIcon--1XXn1"
+                            href="/tags/活動記録/"
+                            >活動記録</a
+                          >
+                        </div>
+                      </li>
+                    </ul>
+                  </div></small
+                >
+              </article>
+            </li>
+          </ul>
+        </main>
+        <footer
+          class="Footer-module--Footer--IKo1c style-module--footer--2NlWq"
+          id="footer"
+        >
+          <div class="Footer-module--Container--2Nrgw">
+            <nav
+              class="FooterNav-module--Nav--2mlZh style-module--nav--3cS4x style-module--nav--13I-3 style-module--navBase--1FdnF style-module--navResetBase--2mpNR style-module--navGapX--23OQb"
+              aria-label="フッタナビゲーション"
+            >
+              <ul
+                class="FooterNav-module--List--1flOl style-module--navList--1dl09 style-module--navList--2eSCY"
+              >
+                <li>
+                  <a
+                    class="FooterNav-module--Link--19XVo style-module--navLink--3Ox9E style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e"
+                    href="/privacy-policy/"
+                    >プライバシーポリシー</a
+                  >
+                </li>
+              </ul>
+              <ul
+                class="FooterNav-module--List--1flOl style-module--navList--1dl09 style-module--navList--2eSCY"
+              >
+                <li>
+                  <span
+                    class="FooterNav-module--Link--19XVo style-module--navLink--3Ox9E style-module--navLink--xiGd7 style-module--navLinkBase--3Gx_x style-module--navLinkResetBase--1Pcdb style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV style-module--alignTextCenterCrossAxis--1lc6e"
+                    ><label
+                      class="I18nMode-module--I18nMode--20LXx DarkMode-module--DarkMode--20ujG style-module--alignTextCenter--u8vj5 style-module--alignTextCenterMainAxis--aVJny style-module--alignTextCenterCrossAxis--1lc6e"
+                      ><input
+                        type="checkbox"
+                        class="I18nMode-module--Checkbox--3wVcx DarkMode-module--Checkbox--1iH8T"
+                        aria-label="英語アイコン"
+                        data-testid="i18nModeCheckbox"
+                      /><span
+                        class="I18nMode-module--Icon--NAvhh DarkMode-module--Icon--VVlyR style-module--base--ZK3Vz style-module--linkResetBase--2O2Ds style-module--common--2VzpV style-module--buttonResetBase--1uZ36 style-module--common--2VzpV"
+                        >🇺🇸</span
+                      ></label
+                    ></span
+                  >
+                </li>
+              </ul>
+            </nav>
+            <small
+              class="FooterNotice-module--Notice--2YVjT style-module--notice--1GANA style-module--alignTextCenterMainAxis--aVJny"
+              >©2020
+              <a
+                href="https://github.com/kylemathews"
+                class="FooterNotice-module--Account--26YeD style-module--account--1VKnt"
+                >@kylemathews</a
+              ></small
+            >
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div
+      id="gatsby-announcer"
+      aria-live="assertive"
+      aria-atomic="true"
+      style="position: absolute; top: 0px; width: 1px; height: 1px; padding: 0px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border: 0px;"
+    ></div>
+  </div>
+  <script src="/polyfill.js" nomodule=""></script>
+  <script src="/commons.js"></script>
+</body>
+`;
