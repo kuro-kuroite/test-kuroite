@@ -110,9 +110,12 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
+          # FIXME: use npm run ci:test:e2e over splitting start and command
+          start: npm run develop
+          wait-on: http://localhost:8000
+          wait-on-timeout: 120
           command: |
-            # npm run ci:test:e2e
-            ls && cat .env.development
+            npx cypress run
       - name: Run SEO Test
         run: |
           echo 'Run SEO Test'
