@@ -16,6 +16,8 @@ jobs:
     if: >
       github.event.workflow_run.conclusion == 'success' &&
       startsWith(github.event.workflow_run.head_commit.message, 'Merge pull request')
+    environment:
+      name: production
     steps:
       # install
       - name: Checkout

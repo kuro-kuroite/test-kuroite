@@ -77,28 +77,24 @@ jobs:
       - name: Install npm
         run: |
           yarn --frozen-lockfile
-      - name: create env file
+      - name: Create Env File
         run: |
           # FYI: https://teratail.com/questions/318264#reply-442858
           touch .env.development .env.production
-          echo ${{ env.GATSBY_SITE_TITLE }}
-          echo ${{ secrets.GATSBY_SITE_TITLE }}
-          echo ${{ env.development.GATSBY_SITE_TITLE }}
-          echo ${{ secrets.development.GATSBY_SITE_TITLE }}
-          # echo GATSBY_SITE_TITLE=${{ secrets.GATSBY_SITE_TITLE }} >> .env.development
-          # echo GATSBY_SITE_TITLE=${{ secrets.GATSBY_SITE_TITLE }} >> .env.production
-          # echo GATSBY_SITE_AUTHOR_NAME=${{ secrets.GATSBY_SITE_AUTHOR_NAME }} >> .env.development
-          # echo GATSBY_SITE_AUTHOR_NAME=${{ secrets.GATSBY_SITE_AUTHOR_NAME }} >> .env.production
-          # echo GATSBY_SITE_AUTHOR_SUMMARY=${{ secrets.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.development
-          # echo GATSBY_SITE_AUTHOR_SUMMARY=${{ secrets.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.production
-          # echo GATSBY_SITE_DESCRIPTION=${{ secrets.GATSBY_SITE_DESCRIPTION }} >> .env.development
-          # echo GATSBY_SITE_DESCRIPTION=${{ secrets.GATSBY_SITE_DESCRIPTION }} >> .env.production
-          # echo GATSBY_SITE_URL=${{ secrets.GATSBY_SITE_URL }} >> .env.development
-          # echo GATSBY_SITE_URL=${{ secrets.GATSBY_SITE_URL }} >> .env.production
-          # echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.development
-          # echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.production
-          # echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.development
-          # echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.production
+          echo GATSBY_SITE_TITLE=${{ secrets.GATSBY_SITE_TITLE }} >> .env.development
+          echo GATSBY_SITE_TITLE=${{ secrets.GATSBY_SITE_TITLE }} >> .env.production
+          echo GATSBY_SITE_AUTHOR_NAME=${{ secrets.GATSBY_SITE_AUTHOR_NAME }} >> .env.development
+          echo GATSBY_SITE_AUTHOR_NAME=${{ secrets.GATSBY_SITE_AUTHOR_NAME }} >> .env.production
+          echo GATSBY_SITE_AUTHOR_SUMMARY=${{ secrets.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.development
+          echo GATSBY_SITE_AUTHOR_SUMMARY=${{ secrets.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.production
+          echo GATSBY_SITE_DESCRIPTION=${{ secrets.GATSBY_SITE_DESCRIPTION }} >> .env.development
+          echo GATSBY_SITE_DESCRIPTION=${{ secrets.GATSBY_SITE_DESCRIPTION }} >> .env.production
+          echo GATSBY_SITE_URL=${{ secrets.GATSBY_SITE_URL }} >> .env.development
+          echo GATSBY_SITE_URL=${{ secrets.GATSBY_SITE_URL }} >> .env.production
+          echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.development
+          echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.production
+          echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.development
+          echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.production
       - name: Run Unit and Snapshot Test with Coverage
         run: |
           # TODO: Check Code Coverage
@@ -108,7 +104,7 @@ jobs:
         run: |
           echo "Run Styleguide's Accessibility and Visual Regression Test"
           # FIXME: Docker 環境と CI 環境でレンダリング内容に差が出るため
-          # npm run ci:test:styleguide
+          npm run ci:test:styleguide
       - name: Run E2E and Snapshot Test
         uses: cypress-io/github-action@v2
         with:
@@ -118,5 +114,4 @@ jobs:
       - name: Run SEO Test
         run: |
           echo 'Run SEO Test'
-          # FIXME: gatsby build が成功しないため
-          # npm run ci:test:seo
+          npm run ci:test:seo
