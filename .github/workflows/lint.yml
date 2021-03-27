@@ -95,6 +95,7 @@ jobs:
           echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.production
           echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.development
           echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.production
+          cat .env.development
       - name: Run Unit and Snapshot Test with Coverage
         run: |
           # TODO: Check Code Coverage
