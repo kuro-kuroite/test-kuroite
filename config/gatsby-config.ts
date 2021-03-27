@@ -6,9 +6,7 @@ import { colors } from './colors.config';
 
 // FYI: https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/#google-analytics-env-var-example
 const activeEnv =
-  process.env.GATSBY_GATSBY_ACTIVE_ENV ||
-  process.env.GATSBY_NODE_ENV ||
-  'development';
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || 'development';
 console.log(`Using environment config: '${activeEnv}'`);
 config({
   path: `.env.${activeEnv}`,
