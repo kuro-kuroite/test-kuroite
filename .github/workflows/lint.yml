@@ -111,7 +111,8 @@ jobs:
         with:
           browser: chrome
           command: |
-            npm run ci:test:e2e
+            # npm run ci:test:e2e
+            npm run tcm && npx gatsby develop
       - name: Run SEO Test
         run: |
           echo 'Run SEO Test'
