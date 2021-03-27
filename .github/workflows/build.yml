@@ -89,6 +89,6 @@ jobs:
       - name: Upload Test Coverage to Codecov
         run: |
           echo 'Upload Test Coverage to Codecov'
-          # npm run ci:upload:coverage
+          npm run ci:upload:coverage
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
