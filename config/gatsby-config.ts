@@ -6,16 +6,18 @@ import { colors } from './colors.config';
 
 // FYI: https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/#google-analytics-env-var-example
 const activeEnv =
-  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || 'development';
+  process.env.GATSBY_GATSBY_ACTIVE_ENV ||
+  process.env.GATSBY_NODE_ENV ||
+  'development';
 console.log(`Using environment config: '${activeEnv}'`);
 config({
   path: `.env.${activeEnv}`,
 });
 
-console.log('siteUrl:', process.env.SITE_URL);
+console.log('siteUrl:', process.env.GATSBY_SITE_URL);
 
-const title = process.env.SITE_TITLE ?? '';
-const siteUrl = process.env.SITE_URL ?? '';
+const title = process.env.GATSBY_SITE_TITLE ?? '';
+const siteUrl = process.env.GATSBY_SITE_URL ?? '';
 const gatsbyConfig: GatsbyConfig = {
   plugins: [
     'gatsby-plugin-postcss',
@@ -236,14 +238,14 @@ const gatsbyConfig: GatsbyConfig = {
   ],
   siteMetadata: {
     author: {
-      name: process.env.SITE_AUTHOR_NAME,
-      summary: process.env.SITE_AUTHOR_SUMMARY,
+      name: process.env.GATSBY_SITE_AUTHOR_NAME,
+      summary: process.env.GATSBY_SITE_AUTHOR_SUMMARY,
     },
-    description: process.env.SITE_DESCRIPTION,
+    description: process.env.GATSBY_SITE_DESCRIPTION,
     siteUrl: siteUrl,
     social: {
-      gitHub: process.env.GITHUB_ACCOUNT,
-      twitter: process.env.TWITTER_ACCOUNT,
+      gitHub: process.env.GATSBY_GITHUB_ACCOUNT,
+      twitter: process.env.GATSBY_TWITTER_ACCOUNT,
     },
     title: title,
   },
