@@ -7,7 +7,7 @@ export const PureTestSeo: VFC<PureProps> = ({ slug }) => (
   <Box flexDirection="column">
     <Text>
       {exitCommandSync(
-        `npm run start-server-and-test -- 'npm run build && npm run serve' http://localhost:9000 'npx lighthouse-ci http://localhost:9000/${slug} --performance=95 --accessibility=98 --best-practices=98 --seo=98 --pwa=98' 2>/dev/null`
+        `npm run start-server-and-test -- 'npm run build && npm run serve' 'http://localhost:9000/${slug}' 'npx lighthouse-ci http://localhost:9000/${slug} --performance=95 --accessibility=98 --best-practices=98 --seo=98 --pwa=98' 2>/dev/null`
       )}
     </Text>
   </Box>

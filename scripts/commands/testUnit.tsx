@@ -5,13 +5,11 @@ import { exitCommandSync } from '../src/utils/command';
 
 export const PureTestUnit: VFC<PureProps> = () => (
   <Box flexDirection="column">
-    <Text>{exitCommandSync(`npx jest --ci --coverage`)}</Text>
-    {/* TODO: coverage threshold */}
-    {/* <Text>
+    <Text>
       {exitCommandSync(
-        `npx jest --ci --coverage --coverageThreshold='{"global":{"branches":90,"functions":90,"lines":90,"statements":90}'`
+        `npx jest --ci --coverage --coverageThreshold='{"global":{"branches":100,"functions":100,"lines":100,"statements":100}'`
       )}
-    </Text> */}
+    </Text>
   </Box>
 );
 
