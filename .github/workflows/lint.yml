@@ -81,20 +81,20 @@ jobs:
           touch .env.development .env.production
           echo ${{ env.GATSBY_SITE_TITLE }}
           echo ${{ secrets.GATSBY_SITE_TITLE }}
-          # echo GATSBY_SITE_TITLE=${{ env.GATSBY_SITE_TITLE }} >> .env.development
-          # echo GATSBY_SITE_TITLE=${{ env.GATSBY_SITE_TITLE }} >> .env.production
-          # echo GATSBY_SITE_AUTHOR_NAME=${{ env.GATSBY_SITE_AUTHOR_NAME }} >> .env.development
-          # echo GATSBY_SITE_AUTHOR_NAME=${{ env.GATSBY_SITE_AUTHOR_NAME }} >> .env.production
-          # echo GATSBY_SITE_AUTHOR_SUMMARY=${{ env.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.development
-          # echo GATSBY_SITE_AUTHOR_SUMMARY=${{ env.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.production
-          # echo GATSBY_SITE_DESCRIPTION=${{ env.GATSBY_SITE_DESCRIPTION }} >> .env.development
-          # echo GATSBY_SITE_DESCRIPTION=${{ env.GATSBY_SITE_DESCRIPTION }} >> .env.production
-          # echo GATSBY_SITE_URL=${{ env.GATSBY_SITE_URL }} >> .env.development
-          # echo GATSBY_SITE_URL=${{ env.GATSBY_SITE_URL }} >> .env.production
-          # echo GATSBY_GITHUB_ACCOUNT=${{ env.GATSBY_GITHUB_ACCOUNT }} >> .env.development
-          # echo GATSBY_GITHUB_ACCOUNT=${{ env.GATSBY_GITHUB_ACCOUNT }} >> .env.production
-          # echo GATSBY_TWITTER_ACCOUNT=${{ env.GATSBY_TWITTER_ACCOUNT }} >> .env.development
-          # echo GATSBY_TWITTER_ACCOUNT=${{ env.GATSBY_TWITTER_ACCOUNT }} >> .env.production
+          # echo GATSBY_SITE_TITLE=${{ secrets.GATSBY_SITE_TITLE }} >> .env.development
+          # echo GATSBY_SITE_TITLE=${{ secrets.GATSBY_SITE_TITLE }} >> .env.production
+          # echo GATSBY_SITE_AUTHOR_NAME=${{ secrets.GATSBY_SITE_AUTHOR_NAME }} >> .env.development
+          # echo GATSBY_SITE_AUTHOR_NAME=${{ secrets.GATSBY_SITE_AUTHOR_NAME }} >> .env.production
+          # echo GATSBY_SITE_AUTHOR_SUMMARY=${{ secrets.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.development
+          # echo GATSBY_SITE_AUTHOR_SUMMARY=${{ secrets.GATSBY_SITE_AUTHOR_SUMMARY }} >> .env.production
+          # echo GATSBY_SITE_DESCRIPTION=${{ secrets.GATSBY_SITE_DESCRIPTION }} >> .env.development
+          # echo GATSBY_SITE_DESCRIPTION=${{ secrets.GATSBY_SITE_DESCRIPTION }} >> .env.production
+          # echo GATSBY_SITE_URL=${{ secrets.GATSBY_SITE_URL }} >> .env.development
+          # echo GATSBY_SITE_URL=${{ secrets.GATSBY_SITE_URL }} >> .env.production
+          # echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.development
+          # echo GATSBY_GITHUB_ACCOUNT=${{ secrets.GATSBY_GITHUB_ACCOUNT }} >> .env.production
+          # echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.development
+          # echo GATSBY_TWITTER_ACCOUNT=${{ secrets.GATSBY_TWITTER_ACCOUNT }} >> .env.production
       - name: Run Unit and Snapshot Test with Coverage
         run: |
           # TODO: Check Code Coverage
