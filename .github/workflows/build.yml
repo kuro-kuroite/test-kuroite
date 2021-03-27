@@ -78,7 +78,7 @@ jobs:
       - name: Create Coverage
         run: |
           echo 'Create Coverage'
-          npm run ci:test:unit
+          npx jest --ci --coverage
       - name: Upload Test Coverage as Artifact
         # uses: actions/upload-artifact@v2
         # with:
