@@ -44,8 +44,8 @@
   </summary>
   <div style="display: flex;">
 
-[<figure><img src="./docs/assets/blogPost_mobile.gif" width="100px" height="200px" alt="blog post page in mobile" /><figcaption>(モバイル版)</figcaption></figure>](https://nostalgic-gates-9846f4.netlify.app)
-[<figure><img src="./docs/assets/blogPost_pc.gif" width="400px" height="200px" alt="blog post page in pc" /><figcaption>(pc 版)</figcaption></figure>](https://nostalgic-gates-9846f4.netlify.app)
+[<figure style="display: inline-flex; flex-direction: column;"><img src="./docs/assets/blogPost_mobile.gif" width="100px" height="200px" alt="blog post page in mobile" /><figcaption>(モバイル版)</figcaption></figure>](https://nostalgic-gates-9846f4.netlify.app)
+[<figure style="display: inline-flex; flex-direction: column;"><img src="./docs/assets/blogPost_pc.gif" width="400px" height="200px" alt="blog post page in pc" /><figcaption>(pc 版)</figcaption></figure>](https://nostalgic-gates-9846f4.netlify.app)
 
   </div>
 </details>
