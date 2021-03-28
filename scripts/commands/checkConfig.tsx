@@ -52,6 +52,7 @@ const CheckConfig: VFC<Props> = () => {
     "'*.yml'",
   ];
 
+
   return (
     <PureCheckConfig
       configArgs={configFiles.join(' ')}
