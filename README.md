@@ -32,11 +32,23 @@
 
 モダンな Web フロントエンドの技術を中心に発信する技術ブログ。
 
-<!-- TODO: LightHouse or Demo -->
-
 <!-- TODO: blog link -->
 
 [https://blog.kuroite.io](https://nostalgic-gates-9846f4.netlify.app)
+
+<!-- TODO: LightHouse or Demo -->
+
+<details>
+  <summary>
+    記事ページのデモ画像
+  </summary>
+  <div style="display: flex;">
+
+[<figure><img src="./docs/assets/blogPost_mobile.gif" width="100px" height="200px" alt="blog post page in mobile" /><figcaption>(モバイル版)</figcaption></figure>](https://nostalgic-gates-9846f4.netlify.app)
+[<figure><img src="./docs/assets/blogPost_pc.gif" width="400px" height="200px" alt="blog post page in pc" /><figcaption>(pc 版)</figcaption></figure>](<(https://nostalgic-gates-9846f4.netlify.app)>)
+
+  </div>
+</details>
 
 ## 環境
 
