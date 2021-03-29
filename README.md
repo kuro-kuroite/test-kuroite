@@ -127,18 +127,60 @@
 ### `develop`
 
 ```zsh
-# TODO: clone
-# docker
-# yarn or npm install
-# npx develop
+# pre
+cd path/to/blog
+git clone https://github.com/kuro-kuroite/kuroite.git
+
+  # plan A: if you use VSCode, and `ms-vscode-remote.remote-containers` extension
+  code path/to/blog/kuroite
+  ## open `Docker.app` or Docker something in Spotlight(Command + Space > `Docker.app`)
+  ## run `Remote-Containers: Reopen in Container` in Command Palette(Command + Shift + P)
+  ## open Terminal in VSCode(Control + `)
+  ### click `Install` to install extensions from right bottom popup of `Do you want to install the recommended extensions for docker-compose.yml?`
+
+  # plan B: otherwise
+  cd path/to/blog/kuroite
+  docker-compose build --no-cache # only first time
+  docker-compose up -d
+  docker-compose exec web zsh
+  zsh ./config/docker/devcontainer/post-create-command.sh
+  ## if you use VSCode
+  ### click `Install` to install extensions from right bottom popup of `Do you want to install the recommended extensions for this repository`
+
+# `develop`
+pwd # /code
+npx gatsby develop -H=$HOST # or `npm run develop`
+# open http://localhost:8000 in browser
+
+# post
+  # plan A
+  ## click `Dev Container: React` > `Close Remote Connection` from left bottom green button
+
+  # plan B
+  exit
+  docker-compose down # or `docker-compose down --volumes`
+
+# click `Quit Docker Desktop` or Docker something
 ```
 
 ### `deploy`
 
 ```zsh
-# TODO: add
-# commit /w lint(eslint, stylelint, textlint, and commitlint)
-# push
+# pre
+git branch feature/something
+git switch feature/something
+
+npx gatsby build # or `npm run build`
+npx gatsby serve -H=$HOST # or `npm run serve`
+# check http://localhost:9000 in browser
+
+# `git add` and `git commit`
+git push origin feature/something
+
+# make Pull Request for main in https://github.com/kuro-kuroite/kuroite/compare
+
+# `deploy`
+# main に merge すると、CI(build) が build し、deploy する on Netlify
 ```
 
 ### License
