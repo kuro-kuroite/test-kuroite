@@ -78,20 +78,13 @@ jobs:
         run: |
           # FYI: https://teratail.com/questions/318264#reply-442858
           touch .env.development .env.production
-          echo SITE_TITLE=${{ secrets.SITE_TITLE }} >> .env.development
-          echo SITE_TITLE=${{ secrets.SITE_TITLE }} >> .env.production
-          echo SITE_AUTHOR_NAME=${{ secrets.SITE_AUTHOR_NAME }} >> .env.development
-          echo SITE_AUTHOR_NAME=${{ secrets.SITE_AUTHOR_NAME }} >> .env.production
-          echo SITE_AUTHOR_SUMMARY=${{ secrets.SITE_AUTHOR_SUMMARY }} >> .env.development
-          echo SITE_AUTHOR_SUMMARY=${{ secrets.SITE_AUTHOR_SUMMARY }} >> .env.production
-          echo SITE_DESCRIPTION=${{ secrets.SITE_DESCRIPTION }} >> .env.development
-          echo SITE_DESCRIPTION=${{ secrets.SITE_DESCRIPTION }} >> .env.production
-          echo SITE_URL=${{ secrets.SITE_URL }} >> .env.development
-          echo SITE_URL=${{ secrets.SITE_URL }} >> .env.production
-          echo ACCOUNT_GITHUB=${{ secrets.ACCOUNT_GITHUB }} >> .env.development
-          echo ACCOUNT_GITHUB=${{ secrets.ACCOUNT_GITHUB }} >> .env.production
-          echo ACCOUNT_TWITTER=${{ secrets.ACCOUNT_TWITTER }} >> .env.development
-          echo ACCOUNT_TWITTER=${{ secrets.ACCOUNT_TWITTER }} >> .env.production
+          echo SITE_TITLE=${{ secrets.SITE_TITLE }} >> .env.development >> .env.production
+          echo SITE_AUTHOR_NAME=${{ secrets.SITE_AUTHOR_NAME }} >> .env.development >> .env.production
+          echo SITE_AUTHOR_SUMMARY=${{ secrets.SITE_AUTHOR_SUMMARY }} >> .env.development >> .env.production
+          echo SITE_DESCRIPTION=${{ secrets.SITE_DESCRIPTION }} >> .env.development >> .env.production
+          echo SITE_URL=${{ secrets.SITE_URL }} >> .env.development >> .env.production
+          echo ACCOUNT_GITHUB=${{ secrets.ACCOUNT_GITHUB }} >> .env.development >> .env.production
+          echo ACCOUNT_TWITTER=${{ secrets.ACCOUNT_TWITTER }} >> .env.development >> .env.production
           echo GA_TRACKING_ID=${{ secrets.GA_TRACKING_ID }} >> .env.production
       - name: Run Unit and Snapshot Test with Coverage
         run: |
