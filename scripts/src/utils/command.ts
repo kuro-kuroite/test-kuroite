@@ -16,7 +16,7 @@ export function command(_command: string): ChildProcess {
 export function commandSync(_command: string) {
   // HACK: https://stackoverflow.com/a/52114879
   return _spawnSync(_command, [], {
-    shell: 'zsh -c',
+    shell: true,
     stdio: ['inherit', 'inherit', 'inherit'],
   });
 }
