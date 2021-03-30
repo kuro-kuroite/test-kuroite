@@ -13,9 +13,7 @@ userId: userAccount
 
 ## はじめに
 
-test
-
-Blog 記事を作成するために、Markdown の記法を知る。
+Blog記事を作成するために、Markdown の記法を知る。
 
 ## 結論
 
