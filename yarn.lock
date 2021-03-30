@@ -13163,10 +13163,10 @@ gatsby-plugin-google-analytics@^2.11.0:
     "@babel/runtime" "^7.12.5"
     minimatch "3.0.4"
 
-gatsby-plugin-google-gtag@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-3.1.0.tgz#ab564a1ae4e6a0e106d5ff4b0c33c17130122ac9"
-  integrity sha512-iGxvZXXTEf4a4X5WF9xqHdc9HJFQkwLCl/Kxthxc/C8J0IpGfPrEfbIyzQtHEXyt93X3OBSyadbsU7tkQMJseg==
+gatsby-plugin-google-gtag@2.8.0-next.0:
+  version "2.8.0-next.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-2.8.0-next.0.tgz#ff2dd872ec7de9d5f1bc5cea33edd77e97e88a78"
+  integrity sha512-Ekh4fKNxPc8zgYQ6dyujJUQePLsPrbPLz5rEXFbpQavki9+AxJ4R7Ly1J3dbiAPiypGv7KzroujjHWsZ9OFSfg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     minimatch "^3.0.4"
