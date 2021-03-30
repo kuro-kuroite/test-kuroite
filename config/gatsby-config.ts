@@ -28,7 +28,7 @@ const gatsbyConfig: GatsbyConfig = {
         },
         trackingIds: [process.env.GA_TRACKING_ID],
       },
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: 'gatsby-plugin-google-gtag',
     },
     'gatsby-plugin-postcss',
     {
@@ -102,12 +102,6 @@ const gatsbyConfig: GatsbyConfig = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    {
-      options: {
-        //trackingId: 'ADD YOUR TRACKING ID HERE',
-      },
-      resolve: 'gatsby-plugin-google-analytics',
-    },
     {
       options: {
         feeds: [
