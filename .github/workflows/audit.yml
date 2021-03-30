@@ -8,6 +8,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Install Zsh
+        run: |
+          sudo apt install zsh
       # install
       - name: Checkout
         uses: actions/checkout@v2

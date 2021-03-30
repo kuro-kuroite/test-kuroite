@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.head_commit.message, '[skip ci]') == false
     steps:
+      - name: Install Zsh
+        run: |
+          sudo apt install zsh
       # install
       - name: Checkout
         uses: actions/checkout@v2
@@ -54,6 +57,9 @@ jobs:
     environment:
       name: development
     steps:
+      - name: Install Zsh
+        run: |
+          sudo apt install zsh
       # install
       - name: Checkout
         uses: actions/checkout@v2
