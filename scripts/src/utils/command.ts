@@ -7,7 +7,7 @@ import {
 export function command(_command: string): ChildProcess {
   // HACK: https://stackoverflow.com/a/52114879
   return _spawn(_command, [], {
-    shell: 'bash',
+    shell: 'zsh',
     stdio: [process.stdin, process.stdout, process.stderr, 'ipc'],
   });
 }

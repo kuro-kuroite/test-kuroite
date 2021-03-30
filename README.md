@@ -2,15 +2,12 @@
 
 <!-- TODO: ここにバッジ一覧 -->
 
-<!-- TODO: netlify 更新 -->
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/876b119b-60a9-46ed-b849-04361ced34c4/deploy-status)](https://app.netlify.com/sites/nostalgic-gates-9846f4/deploys)
+[![Build Status](https://github.com/kuro-kuroite/test-kuroite/workflows/build/badge.svg)](https://github.com/kuro-kuroite/test-kuroite/actions)
 
 <!-- textlint-disable ja-technical-writing/sentence-length -->
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kuro-kuroite/test-kuroite)](https://github.com/kuro-kuroite/test-kuroite/releases)
-[![Build Status](https://github.com/kuro-kuroite/test-kuroite/workflows/build/badge.svg)](https://github.com/kuro-kuroite/test-kuroite/actions)
 [![Coverage Status](https://codecov.io/gh/kuro-kuroite/test-kuroite/graph/badge.svg?branch=main)](https://codecov.io/gh/kuro-kuroite/test-kuroite)
 [![dependency Status](https://img.shields.io/david/kuro-kuroite/test-kuroite.svg?maxAge=1000)](https://david-dm.org/kuro-kuroite/test-kuroite)
 [![devDependency Status](https://img.shields.io/david/dev/kuro-kuroite/test-kuroite.svg?maxAge=1000)](https://david-dm.org/kuro-kuroite/test-kuroite)
@@ -180,7 +177,7 @@ git push origin feature/something
 # make Pull Request for main in https://github.com/kuro-kuroite/kuroite/compare
 
 # `deploy`
-# main に merge すると、CI(build) が build し、deploy する on Netlify
+# main に merge すると、CI(build) が build し、Netlify に deploy する
 ```
 
 ### License
