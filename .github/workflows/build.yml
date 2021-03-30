@@ -57,7 +57,7 @@ jobs:
           echo ACCOUNT_GITHUB=${{ secrets.ACCOUNT_GITHUB }} >> .env.production
           echo ACCOUNT_TWITTER=${{ secrets.ACCOUNT_TWITTER }} >> .env.development
           echo ACCOUNT_TWITTER=${{ secrets.ACCOUNT_TWITTER }} >> .env.production
-          cat .env.development
+          echo GA_TRACKING_ID=${{ secrets.GA_TRACKING_ID }} >> .env.production
       # deploy
       - name: Build a Project
         run: |
