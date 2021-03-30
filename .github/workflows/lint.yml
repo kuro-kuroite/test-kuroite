@@ -13,7 +13,7 @@ jobs:
     if: contains(github.event.head_commit.message, '[skip ci]') == false
     defaults:
       run:
-        shell: zsh {0}
+        shell: zsh
     steps:
       # install
       - name: Checkout
@@ -56,7 +56,7 @@ jobs:
     if: contains(github.event.head_commit.message, '[skip ci]') == false
     defaults:
       run:
-        shell: zsh {0}
+        shell: zsh
     environment:
       name: development
     steps:
