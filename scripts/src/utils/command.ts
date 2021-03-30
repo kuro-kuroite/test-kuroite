@@ -7,7 +7,7 @@ import {
 export function command(_command: string): ChildProcess {
   // HACK: https://stackoverflow.com/a/52114879
   return _spawn(_command, [], {
-    shell: 'zsh',
+    shell: 'zsh -c',
     stdio: [process.stdin, process.stdout, process.stderr, 'ipc'],
   });
 }
@@ -16,7 +16,7 @@ export function command(_command: string): ChildProcess {
 export function commandSync(_command: string) {
   // HACK: https://stackoverflow.com/a/52114879
   return _spawnSync(_command, [], {
-    shell: 'zsh',
+    shell: 'zsh -c',
     stdio: ['inherit', 'inherit', 'inherit'],
   });
 }
