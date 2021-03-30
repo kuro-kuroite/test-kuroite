@@ -16,6 +16,20 @@ const title = process.env.SITE_TITLE ?? '';
 const siteUrl = process.env.SITE_URL ?? '';
 const gatsbyConfig: GatsbyConfig = {
   plugins: [
+    {
+      options: {
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+        },
+        trackingIds: [process.env.GA_TRACKING_ID],
+      },
+      resolve: `gatsby-plugin-google-gtag`,
+    },
     'gatsby-plugin-postcss',
     {
       options: {
