@@ -54,7 +54,8 @@ jobs:
       # deploy
       - name: Build a Project
         run: |
-          npm run build
+          # npm run build
+          npm run prepare && npx gatsby build
       - name: Create a Release
         run: |
           npm run release
