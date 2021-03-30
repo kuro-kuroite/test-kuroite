@@ -11,7 +11,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     if: contains(github.event.head_commit.message, '[skip ci]') == false
-    shell: zsh {0}
+    defaults:
+      run:
+        shell: zsh {0}
     steps:
       # install
       - name: Checkout
@@ -52,7 +54,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     if: contains(github.event.head_commit.message, '[skip ci]') == false
-    shell: zsh {0}
+    defaults:
+      run:
+        shell: zsh {0}
     environment:
       name: development
     steps:
