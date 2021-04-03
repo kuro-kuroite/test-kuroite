@@ -9,7 +9,7 @@ export const PureTestStyleguideA11yScript: VFC<PureProps> = ({ a11yDir }) => (
   <Box flexDirection="column">
     <Text>
       {exitCommandSync(
-        `npx storybook-a11y-report --outDir ${a11yDir} --exit || ( echo 'error' ; rm -rf ${a11yDir} ; false &>/dev/null)`
+        `npx storybook-a11y-report --outDir ${a11yDir} --exit || ( echo 'error' ; rm -rf ${a11yDir} ; false &>/dev/null )`
       )}
     </Text>
   </Box>
