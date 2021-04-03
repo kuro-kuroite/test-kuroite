@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.2.0...v1.3.0) (2021-04-03)
+
+
+### Features
+
+* **tag:** :sparkles: add tag with TSX, PostCSS, Tailwind, and I18n ([294c6da](https://github.com/kuro-kuroite/test-kuroite/commit/294c6da7f20d3e18d2aef54451804370bdd96be4))
+
 ## [1.2.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.1.0...v1.2.0) (2021-04-03)
 
 
