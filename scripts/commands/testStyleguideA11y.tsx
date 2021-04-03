@@ -7,7 +7,7 @@ export const PureTestStyleguideA11y: VFC<PureProps> = ({ a11yDir }) => (
   <Box flexDirection="column">
     <Text>
       {exitCommandSync(
-        `npm run start-server-and-test 'npm run start-storybook -- --ci' http://localhost:6006 'npx storybook-a11y-report --outDir ${a11yDir} --exit || ( rm -rf ${a11yDir} ; false )' 2>/dev/null`
+        `npm run start-server-and-test 'npm run start-storybook -- --ci' http://localhost:6006 'npx storybook-a11y-report --outDir ${a11yDir} --exit || ( echo 'error' ; rm -rf ${a11yDir} ; false &>/dev/null )' 2>/dev/null`
       )}
     </Text>
   </Box>
