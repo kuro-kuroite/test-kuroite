@@ -79,7 +79,7 @@
 #### aside: 注意点
 
 本ブログは、Internet Explorer に「**非**」対応である。
-これは、開発元の Microsoft が今後機能追加をせずサポートを打ち切るため（[Microsoft 365 アプリの IE 11 サポート終了](support-ie11-url)）。
+これは、開発元の Microsoft が今後機能追加をせずサポートを打ち切るため（[Microsoft 365 アプリの IE11 サポート終了][support-ie11-url]）。
 そして、サイズを小さくしブログの読み込み時間を短くするためである。
 
 [support-ie11-url]: https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666
