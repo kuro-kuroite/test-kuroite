@@ -12,6 +12,7 @@ import styles from './BlogInfo.module.css';
 export const PureBlogInfo: VFC<PureProps> = ({
   createdAt,
   tags,
+  title,
   updatedAt,
 }) => {
   const t = useT('components/index/blogInfo');
@@ -20,14 +21,19 @@ export const PureBlogInfo: VFC<PureProps> = ({
     <small aria-label={t('ブログ info')} className={styles.BlogInfo}>
       <UpdatedAt updatedAt={updatedAt} />
       <CreatedAt createdAt={createdAt} />
-      <TagIconList tags={tags} />
+      <TagIconList tags={tags} title={title} />
     </small>
   );
 };
 
-export const BlogInfo: VFC<Props> = ({ createdAt, tags, updatedAt }) => {
+export const BlogInfo: VFC<Props> = ({ createdAt, tags, title, updatedAt }) => {
   return (
-    <PureBlogInfo createdAt={createdAt} tags={tags} updatedAt={updatedAt} />
+    <PureBlogInfo
+      createdAt={createdAt}
+      tags={tags}
+      title={title}
+      updatedAt={updatedAt}
+    />
   );
 };
 

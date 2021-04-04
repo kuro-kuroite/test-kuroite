@@ -5,11 +5,15 @@ import { useT } from '../../../utils/i18n';
 import { Props as TagProps, TagIcon } from '../TagIcon/TagIcon';
 import styles from './TagIconList.module.css';
 
-export const PureTagIconList: React.VFC<PureProps> = ({ tags }) => {
+export const PureTagIconList: React.VFC<PureProps> = ({ tags, title }) => {
   const t = useT('components/index/tagIconList');
 
   return (
-    <nav aria-label={t('タグナビゲーション')} className={styles.TagIconList}>
+    <nav
+      // HACK: a11y error! landmark-unique
+      aria-label={`${title} ${t('タグナビゲーション')}`}
+      className={styles.TagIconList}
+    >
       <FaTag className={styles.WithIcon} />
       <ul className={styles.IconList}>
         {tags.map((tag) => {
@@ -24,8 +28,8 @@ export const PureTagIconList: React.VFC<PureProps> = ({ tags }) => {
   );
 };
 
-export const TagIconList: React.VFC<Props> = ({ tags }) => {
-  return <PureTagIconList tags={tags} />;
+export const TagIconList: React.VFC<Props> = ({ tags, title }) => {
+  return <PureTagIconList tags={tags} title={title} />;
 };
 
 export type PureProps = Props;
@@ -34,4 +38,5 @@ export type Props = {
   tags: {
     [P in 'tag']: TagProps[P];
   }['tag'][];
+  title: string;
 };
