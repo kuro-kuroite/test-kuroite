@@ -1,8 +1,8 @@
 import { getByTestId } from '../support/getByTestId';
 
-describe('/404', () => {
+describe('/404/', () => {
   beforeEach(() => {
-    cy.visit('/404');
+    cy.visit('/404/');
     cy.injectAxe();
   });
 

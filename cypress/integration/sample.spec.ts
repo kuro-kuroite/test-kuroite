@@ -2,7 +2,7 @@ import { getByTestId } from '../support/getByTestId';
 
 describe('/blog/sample/', () => {
   beforeEach(() => {
-    cy.visit('/blog/sample');
+    cy.visit('/blog/sample/');
     cy.injectAxe();
   });
 
