@@ -1,4 +1,4 @@
-exports[`/404 > ロードした時に，dark modeとlight modeのアクセシビリティを確認する #0`] = `
+exports[`/404/ > ロードした時に，dark modeとlight modeのアクセシビリティを確認する #0`] = `
 <body data-theme="light">
   <div id="___gatsby">
     <div tabindex="-1" id="gatsby-focus-wrapper" style="outline: none;">
