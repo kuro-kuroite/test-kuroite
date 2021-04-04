@@ -18,4 +18,5 @@ const Template: Story<PropsWithChildren<TagIconListPureProps>> = (args) => (
 export const TagIconList = Template.bind({});
 TagIconList.args = {
   tags: ['React', 'TypeScript'],
+  title: 'React Gatsby',
 };

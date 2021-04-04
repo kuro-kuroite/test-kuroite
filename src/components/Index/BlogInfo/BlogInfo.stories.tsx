@@ -19,5 +19,6 @@ export const BlogInfo = Template.bind({});
 BlogInfo.args = {
   createdAt: '08/22/2020',
   tags: ['React', 'TypeScript', 'Gatsby', 'TSX'],
+  title: 'React Gatsby',
   updatedAt: '08/24/2020',
 };
