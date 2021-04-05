@@ -1,5 +1,5 @@
 exports[`/index/ > ロードした時に，dark modeとlight modeのアクセシビリティを確認する #0`] = `
-<body data-theme="dark">
+<body data-theme="light">
   <div id="___gatsby">
     <div tabindex="-1" id="gatsby-focus-wrapper" style="outline: none;">
       <div
@@ -112,10 +112,10 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                   <span
                     class="DarkMode-module--Link--2GBnz style-module--navIconLink--1yMim style-module--icon--36FQM style-module--navLink--2pVl8 style-module--navLink--3hKW5 style-module--navLinkBase--2fj2N style-module--navLinkResetBase--3iJ7p style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--buttonResetBase--1tusi style-module--alignTextCenterCrossAxis--rB1De style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
                     ><label
-                      aria-label="ライトモードリンク"
+                      aria-label="ダークモードリンク"
                       class="DarkMode-module--DarkMode--20ujG style-module--toggleIcon--2WGvE style-module--alignTextCenter--3QZzC style-module--alignTextCenterMainAxis--2L_MI style-module--alignTextCenterCrossAxis--rB1De"
                       ><input
-                        aria-label="ライトモードアイコン"
+                        aria-label="ダークモードアイコン"
                         class="DarkMode-module--Checkbox--1iH8T style-module--checkbox--JlgzU"
                         data-testid="darkModeCheckbox"
                         type="checkbox"/><svg
@@ -127,9 +127,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                         class="DarkMode-module--Icon--VVlyR style-module--icon--32Amx style-module--base--3eEya style-module--linkResetBase--LhC0q style-module--buttonResetBase--1tusi"
                       >
                         <path
-                          clip-rule="evenodd"
-                          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                          fill-rule="evenodd"
+                          d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
                         ></path></svg></label
                   ></span>
                 </li>
@@ -197,7 +195,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                     >05/01/2016)</span
                   >
                   <nav
-                    aria-label="タグナビゲーション"
+                    aria-label="Hello World タグナビゲーション"
                     class="TagIconList-module--TagIconList--1Rly_ style-module--list--2WXKP style-module--list--2rlgH"
                   >
                     <svg
@@ -313,7 +311,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                     >05/01/2015)</span
                   >
                   <nav
-                    aria-label="タグナビゲーション"
+                    aria-label="Sample タグナビゲーション"
                     class="TagIconList-module--TagIconList--1Rly_ style-module--list--2WXKP style-module--list--2rlgH"
                   >
                     <svg
