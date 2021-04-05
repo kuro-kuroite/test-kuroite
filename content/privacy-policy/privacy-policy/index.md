@@ -6,7 +6,9 @@ updatedAt: '2015-05-01T22:12:03.284Z'
 cover: './logo.png'
 status: published
 category: About
-tags: [About, 活動記録]
+tags:
+  - About
+  - プライバシーポリシー
 userId: userAccount
 ---
 
