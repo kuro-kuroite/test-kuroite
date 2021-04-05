@@ -32,7 +32,12 @@ export const PureBlogItem: React.VFC<PureProps> = ({
           }}
         />
       </Link>
-      <BlogInfo createdAt={createdAt} tags={tags} updatedAt={updatedAt} />
+      <BlogInfo
+        createdAt={createdAt}
+        tags={tags}
+        title={title}
+        updatedAt={updatedAt}
+      />
     </article>
   );
 };
