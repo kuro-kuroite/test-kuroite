@@ -18,7 +18,12 @@ export const PurePrivacyPolicy: VFC<PureProps> = ({
   <article className={styles.PrivacyPolicy}>
     <ProgressBar />
     <h1 className={styles.Title}>{title}</h1>
-    <BlogInfo createdAt={createdAt} tags={tags} updatedAt={updatedAt} />
+    <BlogInfo
+      createdAt={createdAt}
+      tags={tags}
+      title={title}
+      updatedAt={updatedAt}
+    />
     <div className={styles.Container}>
       <Toc tableOfContents={tableOfContents} />
       <section
