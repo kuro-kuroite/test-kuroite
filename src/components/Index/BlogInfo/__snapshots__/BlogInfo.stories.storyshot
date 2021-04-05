@@ -80,7 +80,7 @@ exports[`Storyshots components/Index/BlogInfo Blog Info 1`] = `
           )
         </span>
         <nav
-          aria-label="タグナビゲーション"
+          aria-label="React Gatsby タグナビゲーション"
           className="TagIconList"
         >
           <svg
@@ -222,7 +222,7 @@ exports[`Storyshots components/Index/BlogInfo Blog Info 1`] = `
           )
         </span>
         <nav
-          aria-label="タグナビゲーション"
+          aria-label="React Gatsby タグナビゲーション"
           className="TagIconList"
         >
           <svg

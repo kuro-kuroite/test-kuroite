@@ -20,7 +20,7 @@ exports[`Storyshots components/Index/TagIconList Tag Icon List 1`] = `
   >
     <div>
       <nav
-        aria-label="タグナビゲーション"
+        aria-label="React Gatsby タグナビゲーション"
         className="TagIconList"
       >
         <svg
@@ -81,7 +81,7 @@ exports[`Storyshots components/Index/TagIconList Tag Icon List 1`] = `
   >
     <div>
       <nav
-        aria-label="タグナビゲーション"
+        aria-label="React Gatsby タグナビゲーション"
         className="TagIconList"
       >
         <svg
