@@ -115,7 +115,7 @@ exports[`Storyshots components/Tag Tag 1`] = `
                 )
               </span>
               <nav
-                aria-label="タグナビゲーション"
+                aria-label="React TypeScript タグナビゲーション"
                 className="TagIconList"
               >
                 <svg
@@ -251,7 +251,7 @@ exports[`Storyshots components/Tag Tag 1`] = `
                 )
               </span>
               <nav
-                aria-label="タグナビゲーション"
+                aria-label="React Gatsby タグナビゲーション"
                 className="TagIconList"
               >
                 <svg
@@ -411,7 +411,7 @@ exports[`Storyshots components/Tag Tag 1`] = `
                 )
               </span>
               <nav
-                aria-label="タグナビゲーション"
+                aria-label="React TypeScript タグナビゲーション"
                 className="TagIconList"
               >
                 <svg
@@ -547,7 +547,7 @@ exports[`Storyshots components/Tag Tag 1`] = `
                 )
               </span>
               <nav
-                aria-label="タグナビゲーション"
+                aria-label="React Gatsby タグナビゲーション"
                 className="TagIconList"
               >
                 <svg
@@ -898,7 +898,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                     )
                   </span>
                   <nav
-                    aria-label="タグナビゲーション"
+                    aria-label="React TypeScript タグナビゲーション"
                     className="TagIconList"
                   >
                     <svg
@@ -1034,7 +1034,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                     )
                   </span>
                   <nav
-                    aria-label="タグナビゲーション"
+                    aria-label="React Gatsby タグナビゲーション"
                     className="TagIconList"
                   >
                     <svg
@@ -1443,7 +1443,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                     )
                   </span>
                   <nav
-                    aria-label="タグナビゲーション"
+                    aria-label="React TypeScript タグナビゲーション"
                     className="TagIconList"
                   >
                     <svg
@@ -1579,7 +1579,7 @@ c37 0 83 7 103 15 52 22 111 78 135 130 26 55 29 164 6 219 -22 52 -78 111
                     )
                   </span>
                   <nav
-                    aria-label="タグナビゲーション"
+                    aria-label="React Gatsby タグナビゲーション"
                     className="TagIconList"
                   >
                     <svg
