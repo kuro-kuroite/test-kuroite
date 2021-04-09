@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.0.0...v1.1.0) (2021-04-09)
+
+
+### Features
+
+* **index:** :sparkles: add index with TSX, PostCSS, Tailwind, and I18n ([829250c](https://github.com/kuro-kuroite/test-kuroite/commit/829250c11ef7d4636a1a35fc3c5c03a523de41d1))
+
 ## 1.0.0 (2021-04-09)
 
 
