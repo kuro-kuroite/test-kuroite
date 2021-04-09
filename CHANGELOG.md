@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.3.0...v1.4.0) (2021-04-09)
+
+
+### Features
+
+* **privacy-policy:** :sparkles: add privacyPolicy with TSX, PostCSS, Tailwind, and I18n ([12006cb](https://github.com/kuro-kuroite/test-kuroite/commit/12006cb998576814ff43b3ce3bc82f34b7030189))
+
 ## [1.3.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.2.0...v1.3.0) (2021-04-09)
 
 
