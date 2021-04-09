@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.1.0...v1.2.0) (2021-04-09)
+
+
+### Features
+
+* **about:** :sparkles: add about with TSX, PostCSS, Tailwind, and I18n ([11cca6f](https://github.com/kuro-kuroite/test-kuroite/commit/11cca6f88c3da86f4e555a5df6e11a53b0752cd2))
+
 ## [1.1.0](https://github.com/kuro-kuroite/test-kuroite/compare/v1.0.0...v1.1.0) (2021-04-09)
 
 
